@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14923" started-at="2020-07-31T20:37:45 IST" finished-at="2020-07-31T20:38:00 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14923" started-at="2020-07-31T20:37:45 IST" finished-at="2020-07-31T20:38:00 IST">
+      <class name="Files.AddEmployee">
+        <test-method status="PASS" signature="addemployee(java.lang.String, java.lang.String)[pri:0, instance:Files.AddEmployee@5faeada1]" name="addemployee" duration-ms="5306" started-at="2020-07-31T20:37:45 IST" data-provider="AddEmployeeData" finished-at="2020-07-31T20:37:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ganu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemployee -->
+        <test-method status="PASS" signature="addemployee(java.lang.String, java.lang.String)[pri:0, instance:Files.AddEmployee@5faeada1]" name="addemployee" duration-ms="1303" started-at="2020-07-31T20:37:51 IST" data-provider="AddEmployeeData" finished-at="2020-07-31T20:37:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahadev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[856867]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemployee -->
+        <test-method status="PASS" signature="addemployee(java.lang.String, java.lang.String)[pri:0, instance:Files.AddEmployee@5faeada1]" name="addemployee" duration-ms="1537" started-at="2020-07-31T20:37:52 IST" data-provider="AddEmployeeData" finished-at="2020-07-31T20:37:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranjana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67766]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemployee -->
+        <test-method status="PASS" signature="addemployee(java.lang.String, java.lang.String)[pri:0, instance:Files.AddEmployee@5faeada1]" name="addemployee" duration-ms="1559" started-at="2020-07-31T20:37:54 IST" data-provider="AddEmployeeData" finished-at="2020-07-31T20:37:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OVI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67766]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemployee -->
+        <test-method status="PASS" signature="UpdateEmployee()[pri:0, instance:Files.AddEmployee@5faeada1]" name="UpdateEmployee" duration-ms="1797" started-at="2020-07-31T20:37:55 IST" depends-on-methods="Files.AddEmployee.addemployee" finished-at="2020-07-31T20:37:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateEmployee -->
+        <test-method status="PASS" signature="GetEmployee()[pri:0, instance:Files.AddEmployee@5faeada1]" name="GetEmployee" duration-ms="1891" started-at="2020-07-31T20:37:57 IST" depends-on-methods="Files.AddEmployee.UpdateEmployee" finished-at="2020-07-31T20:37:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetEmployee -->
+        <test-method status="PASS" signature="GetEmployees()[pri:0, instance:Files.AddEmployee@5faeada1]" name="GetEmployees" duration-ms="176" started-at="2020-07-31T20:37:59 IST" depends-on-methods="Files.AddEmployee.GetEmployee" finished-at="2020-07-31T20:37:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetEmployees -->
+        <test-method status="PASS" signature="DeleteEmployee()[pri:0, instance:Files.AddEmployee@5faeada1]" name="DeleteEmployee" duration-ms="1260" started-at="2020-07-31T20:37:59 IST" depends-on-methods="Files.AddEmployee.GetEmployees" finished-at="2020-07-31T20:38:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmployee -->
+      </class> <!-- Files.AddEmployee -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
