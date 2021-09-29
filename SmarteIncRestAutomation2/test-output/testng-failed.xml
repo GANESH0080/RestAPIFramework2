@@ -5,8 +5,11 @@
     <classes>
       <class name="Files.AddEmployee">
         <methods>
-          <include name="addemployee"/>
-          <include name="UpdateEmployee" invocation-numbers="0 1 2 3"/>
+          <include name="UpdateEmployee"/>
+          <include name="DeleteEmployee"/>
+          <include name="GetEmployee"/>
+          <include name="addemployee" invocation-numbers="0 3"/>
+          <include name="GetEmployees"/>
         </methods>
       </class> <!-- Files.AddEmployee -->
     </classes>
